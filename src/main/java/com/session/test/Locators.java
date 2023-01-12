@@ -7,12 +7,12 @@ public class Locators {
 	public static  By  loginLink = By.xpath("//a[text()='Login or register']");
 	public static By continueBtn =  By.xpath("//button[@title ='Continue']");
 	
-	
+	//////////////////////Sign up page locators//////////////////
 	public static   By firstName = By.id("AccountFrm_firstname");
 	public static   By lastName = By.id("AccountFrm_lastname");
-	public static	By email = By.id("AccountFrm_lastname");
-	public static	By telephone = By.id("AccountFrm_lastname");
-	public static	By fax = By.id("AccountFrm_lastname");
+	public static	By email = By.id("AccountFrm_email");
+	public static	By telephone = By.id("AccountFrm_telephone");
+	public static	By fax = By.id("AccountFrm_fax");
 	public static	By company = By.id("AccountFrm_company");
 	public static	By address1 = By.id("AccountFrm_address_1");
 	public static	By city = By.id("AccountFrm_city");

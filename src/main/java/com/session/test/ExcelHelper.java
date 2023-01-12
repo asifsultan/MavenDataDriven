@@ -65,12 +65,12 @@ public class ExcelHelper {
 			return sheetData.getLastRowNum();
 		}
 		
-//		public int getTotalColumns(String sheetName, int rowNumber) {
-//			sheetData = wb.getSheet(sheetName);
-//		       row = sheetData.getRow(rowNumber);
-//		       int colCount = row.getLastCellNum();
-//		       return colCount;
-//		}
+		public int getTotalColumns(String sheetName, int rowNumber) {
+			sheetData = wb.getSheet(sheetName);
+		       row = sheetData.getRow(rowNumber);
+		       int colCount = row.getLastCellNum();
+		       return colCount;
+		}
 		
 		public void writeData(String sheetName, int row, int column, String data) throws IOException {
 			sheetData = wb.getSheet(sheetName);
