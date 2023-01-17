@@ -33,7 +33,7 @@ public class DataDriven {
 						driver.findElement(Locators.continueBtn).click();
 		
 		
-		////////////////////////////////////sign up form////////////////////////////////////
+				////////////////////////////////////sign up form////////////////////////////////////
 		
 				driver.findElement(Locators.firstName).sendKeys(excel.getStringData("login", i, 0));
 				driver.findElement(Locators.lastName).sendKeys(excel.getStringData("login", i, 1));
